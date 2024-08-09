@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logotipo img{
+    width: 100px;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'poppins';
+    color: white;
+}
+
+li, a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffde59;
+    font-family: 'poppins';
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: #439336;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a:hover{
+  color: white;
+}
+
+.content img{
+    width: 260px;
+    border: 1px solid;
+    position: relative;
+    margin-left: 130px;
+    margin-top: 60px;
+    display: grid;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.fonte p{
+    margin-left: 130px;
+}
+
+.fonte a{
+    color: black;
+    
+}
+
+.paragra{
+    padding: 30px 30px 0px 40px;
+    text-align: center;
+}
+
+.paragrafo p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.paragra-cidade{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
